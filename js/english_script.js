@@ -237,11 +237,9 @@ const questions = [
   
     const incorrectCount = totalQuestions - correctCount;
     const message = `You answered ${correctCount} out of ${totalQuestions} questions correctly.`;
-  
     alert(message);
     do_theSave()
   }
-  
 function do_theSave(){
   let user = {
     userName: currentUser.userName,
@@ -254,8 +252,6 @@ function do_theSave(){
     englishScore: correctCount,
     techScore: currentUser.techScore,
   };
-  
   localStorage.setItem("currentUser", JSON.stringify(user));
   window.location = "/html/reportPage.html";
   }
-  
