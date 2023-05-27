@@ -12,6 +12,6 @@ if(user){
         englishResult=user.englishScore
         English_result.innerHTML=`= `+englishResult+ ` out of 10`
     }
-    personal_info.innerHTML=`<br> ${user.email} <br> ${user.userInfo} <br> ${user.phone} <br> ${user.userName}`
+    personal_info.innerHTML=`${user.email} <br> ${user.phoneNumber} <br> ${user.phone} <br> ${user.userName}`
 
 }

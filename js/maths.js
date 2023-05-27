@@ -128,5 +128,5 @@ let user = {
 };
 
 localStorage.setItem("currentUser", JSON.stringify(user));
-window.location = "/html/reportPage.html";
+window.location = "/html/EnglishTest.html";
 }

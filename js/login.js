@@ -16,7 +16,7 @@ signIn_btn.addEventListener("click", (e) => {
     
     if (existsUser) {
         localStorage.setItem("currentUser", JSON.stringify(existsUser));
-        window.location = "../landing.html";
+        window.location = "../index.html";
         e.preventDefault();
     } else {
         error.innerText = `Email or password is not correct`;
