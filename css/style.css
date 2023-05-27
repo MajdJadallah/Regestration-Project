@@ -67,7 +67,7 @@ color: #55538A;
   align-items: end;
   justify-content: end;
   width:60.5%;
-  margin-left: 38.5REM;
+  margin-left: 38REM;
 }
 
 .header-container{
@@ -475,6 +475,7 @@ background-image: url(../assets/blue.svg); }
 .footer-row{
   margin-top:10rem;
   background-color: #CCF6ff;
+  
  
 }
 .footer-logo{
@@ -536,7 +537,7 @@ ul a {
 }
 .footer3-img img{
   width: 70%;
-  justify-self: center;
+  justify-self: start;
   /* margin-right: 25px; */
 }
 
