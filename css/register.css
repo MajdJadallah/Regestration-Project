@@ -5,7 +5,53 @@
     padding: 0;
     margin: 0;
 }
-
+#logo{
+    font-family: 'Wendy One', sans-serif;
+    font-size: 30px;
+    width: 15%;
+    color: #55538A;
+    }
+    #nav{
+    border-radius: 100px;
+    padding: 5px 15px;
+    background-color: #fff;
+    margin: 10px 64px;
+    }
+    #menu{
+    gap: 1gap;
+    }
+    #menuList{
+    gap:1rem;
+    }
+    #menuList a{
+    font-weight: 600;
+    color: #55538A;
+    border-radius:50px ;
+     }
+    #profileImage{
+    width: 47px;
+    }
+    .containerMenuList{
+    justify-content: space-between;
+    }
+    ul a {
+        text-decoration: none;
+        color: #55538A;
+        margin-left: 7px;
+    }
+    @media(max-width:768px){
+        body{
+        padding: 0;
+        background-color: #FCFBFD;
+        }
+        #nav{
+        border-radius: 0;
+        margin: 0;
+        }
+        .humberger{
+        color: #55538A !important;
+        }
+        }
 #h1 {
     font-family: 'Wendy One', sans-serif;
 }
