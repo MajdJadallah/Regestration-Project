@@ -5,6 +5,8 @@ let confPassword = document.querySelector("#ConfirmPassword");
 let signUp_btn = document.querySelector(".button");
 let error = document.querySelector(".error");
 
+
+
 // Sign up button
 signUp_btn.addEventListener("click", (e) => {
     if (
@@ -56,3 +58,4 @@ signUp_btn.addEventListener("click", (e) => {
 
     e.preventDefault();
 });
+
